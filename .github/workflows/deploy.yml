@@ -1,5 +1,8 @@
 name: Deploy HTML
 
+permissions:
+  contents: write
+
 on:
   push:
     branches:
